@@ -13,6 +13,11 @@ header {
     color: #fff;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .logo {
     font-weight: 600;
     font-size: 18px;
@@ -37,8 +42,8 @@ button {
 
 .slider {
     margin: 0 auto;
-    width: 800px;
-    height: 450px;
+    max-width: 800px;
+    max-height: 450px;
     background-color: rgb(182, 203, 222);
 }
 
